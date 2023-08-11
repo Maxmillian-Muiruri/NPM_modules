@@ -3,7 +3,7 @@ const router = express.Router();
 const data = {};
 
 
-data.employees = require('../../data/employees.json');
+// data.employees = require('../../data/employees.json');
 // /handling routes in api 
 // can use router to chain
 router.route('/')
