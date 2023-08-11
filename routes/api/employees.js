@@ -3,7 +3,7 @@ const router = express.Router();
 const data = {};
 
 
-// data.employees = require('../../data/employees.json');
+data.employees = require('../../data/employees.json');
 // /handling routes in api 
 // can use router to chain
 router.route('/')
@@ -31,7 +31,5 @@ router.route('/:id')
     .get((req, res) => {
         res.json({ "id": req.params.id });
     });
-
-
 
 module.exports = router;

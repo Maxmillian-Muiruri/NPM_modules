@@ -45,7 +45,7 @@ app.use('/employees', require('./routes/api/employees'));
 // app.get('/hello(.html)?', (req, res, next) => {
 //     console.log('attempted to load hello.html');
 //     next()
-// }, (req, res) => {
+// }, (req, res) => {`
 //     res.send('Hello World!');
 // });
 
